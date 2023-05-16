@@ -52,7 +52,6 @@ public class RGB {
 	}
 	public static RGB mix(RGB rgb1, RGB rgb2, double alpha) {
 		double newRed,newBlue,newGreen;
-		//alpha * color1 + (1-alpha) * color2
 		newBlue = alpha*rgb1.getBlue()+(1-alpha) *rgb2.getBlue();
 		newRed = alpha*rgb1.getRed()+(1-alpha) *rgb2.getRed();
 		newGreen = alpha*rgb1.getGreen()+(1-alpha) *rgb2.getGreen();

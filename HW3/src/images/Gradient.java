@@ -10,7 +10,6 @@ public class Gradient extends BaseImage{
 	
 	@Override
 	public RGB get(int x, int y) {
-		
 		return RGB.mix(start, end, (1 - (double) x / this.getWidth()));
 	}
 	

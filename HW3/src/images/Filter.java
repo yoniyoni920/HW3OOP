@@ -8,9 +8,7 @@ public class Filter extends ImageDecorator{
 	}
 	
 	@Override
-	public RGB get(int x, int y) {
-		
-		
+	public RGB get(int x, int y) {	
 		return super.getImage().get(x, y).filter(filter);
 	}
 
